@@ -1,0 +1,10 @@
+/* Maps */
+
+$mapRedes: (facebook:rgb(6, 6, 252), instagram:rgb(179, 29, 116), twitter:rgb(0, 240, 248), youtube:rgb(253, 0, 0) );
+
+@each $red, $color in $mapRedes {
+    .#{$red} {
+        color: $color;
+    }
+}
+
