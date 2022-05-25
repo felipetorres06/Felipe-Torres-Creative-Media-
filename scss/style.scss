@@ -31,7 +31,7 @@ html{
 
 section{
     padding:0 7%;
-    padding-top: 12rem;
+    padding-top: 0rem;
 }
 
 .btn{
@@ -55,57 +55,6 @@ section{
 
 /* header */
 
-.navbar{
-    width: 100%;
-}
-
-    header{
-        position: fixed;
-        top:0; left: 0;
-        z-index: 1000;
-        background:#fff;
-        box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
-        width:100%;
-    
-    
-    & .heading{
-        font-size: 3rem;
-        color:#666;
-        padding:1rem;
-        text-align: center;
-    }
-    
-    & #menu{
-        font-size: 3rem;
-        color:#666;
-        cursor: pointer;
-        margin:1rem;
-        display: none;
-    }
-    
-    & .navbar ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-        background:var(--orange);
-        padding:1rem; 
-    }
-    
-    & .navbar ul li{
-        margin:0 1.5rem;
-    }
-    
-    & .navbar ul li a{
-        font-size: 2rem;
-        color:#fff;
-        text-decoration: none;
-    }
-    
-    & .navbar ul li a:hover{
-        color:#444;
-    }
-}
 
 /* index */
 

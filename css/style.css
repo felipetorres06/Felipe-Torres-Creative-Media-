@@ -3,6 +3,11 @@
   --orange:#5d04a7;
 }
 
+
+.inter{
+  background-color: #5d04a7;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -17,7 +22,7 @@
 
 *::selection {
   background: var(--orange);
-  color: #fff;
+  color: rgb(10, 204, 238);
 }
 
 html {
@@ -27,7 +32,7 @@ html {
 
 section {
   padding: 0 7%;
-  padding-top: 12rem;
+  padding-top: 1rem;
 }
 
 .btn {
@@ -218,7 +223,7 @@ header .navbar ul li a:hover {
 }
 
 .box {
-  transform: scale(1);
+
   transition: 0.3s ease-in-out;
 }
 
@@ -270,7 +275,6 @@ header .navbar ul li a:hover {
 }
 
 .blog-img {
-  transform: scale(1);
   transition: 0.3s ease-in-out;
 }
 
@@ -465,6 +469,7 @@ header .navbar ul li a:hover {
   color: #fff;
   padding: 2rem 1rem;
   font-weight: normal;
+  margin-bottom: 0%;
 }
 
 .footer .credit a {
